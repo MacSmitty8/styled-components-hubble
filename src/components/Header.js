@@ -1,4 +1,4 @@
-import { StyledHeader, Nav, Logo } from "./styles/Header.styled"
+import { StyledHeader, Nav, Logo, Image } from "./styles/Header.styled"
 
 import { Container } from "./styles/Container.styled"
 
@@ -27,6 +27,7 @@ export default function Header() {
             Get Started For Free
             </Button>
                 </div>
+                <Image src='images/illustration-mockups.svg' alt='' />
             </Flex>
             </Container>
         </StyledHeader>
